@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title="Settings">
+        <menu>
+            <item android:id="@+id/theme_id"
+                android:title="Change Theme">
+                <menu>
+                    <item android:id="@+id/theme1"
+                        android:title="Theme 01"/>
+                    <item android:id="@+id/theme2"
+                        android:title="Theme 02"/>
+                    <item android:id="@+id/theme3"
+                        android:title="Theme 03"/>
+                    <item android:id="@+id/theme4"
+                        android:title="Default"/>
+                </menu>
+            </item>
+
+        </menu>
+    </item>
+    <item android:id="@+id/item2"
+        android:title="Wallpaper"
+        >
+        <menu>
+            <item android:id="@+id/subItem0"
+                android:title="Default"
+                />
+            <item android:id="@+id/subItem1"
+                android:title="Wallpaper01"/>
+            <item android:id="@+id/subItem2"
+                android:title="Wallpaper02"/>
+            <item android:id="@+id/subItem3"
+                android:title="Wallpaper03"/>
+            <item android:id="@+id/subItem4"
+                android:title="Wallpaper04"/>
+            <item android:id="@+id/subItem5"
+                android:title="Wallpaper05"/>
+            <item android:id="@+id/subItem6"
+                android:title="Wallpaper06"/>
+            <item android:id="@+id/subItem7"
+                android:title="Wallpaper07"/>
+            <item android:id="@+id/subItem8"
+                android:title="Wallpaper08"/>
+            <item android:id="@+id/subItem9"
+                android:title="Wallpaper09"/>
+            <item android:id="@+id/subItem10"
+                android:title="Wallpaper10"/>
+            <item android:id="@+id/subItem11"
+                android:title="Wallpaper11"/>
+            <item android:id="@+id/subItem12"
+                android:title="Wallpaper12"/>
+        </menu>
+    </item>
+    <item android:id="@+id/item3"
+        android:title="View Profile"/>
+    <item android:id="@+id/item4"
+        android:title="About Us"/>
+
+
+
+</menu>
